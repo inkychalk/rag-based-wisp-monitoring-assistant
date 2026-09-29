@@ -15,7 +15,7 @@ Configuring, running and evaluating the WISP monitoring assistant. For what the 
 
 `chroma_db/` and `events.db` are generated and not committed, so a fresh clone must build them before the assistant can answer anything.
 
-
+```bash
 python wisp_rag.py ingest \
   --log day1.log@2026-09-14 \
   --log day2.log@2026-09-15 \
@@ -53,7 +53,7 @@ The assistant calls the model through a single function, `ask_llm()` in `wisp_as
 
 ### Default: local Ollama
 
-
+```
 # .env
 LLM_PROVIDER=ollama
 OLLAMA_MODEL=gemma4:e4b
