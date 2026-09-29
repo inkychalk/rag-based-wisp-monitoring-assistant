@@ -131,6 +131,7 @@ pip install -r requirements.txt
 
 **Build the index** (required — `chroma_db/` and `events.db` are generated, not committed):
 
+```bash
 python wisp_rag.py ingest \
   --log day1.log@2026-09-14 \
   --log day2.log@2026-09-15 \
