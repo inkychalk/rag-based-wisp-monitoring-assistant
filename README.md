@@ -124,7 +124,7 @@ Knowing what it doesn't know is the property that makes the rest usable.
 
 
 ```
-git clone https://github.com/inkychalk/rag-based-wisp-monitoring-assistant.git
+git clone https://github.com/thuyamaungg/rag-based-wisp-monitoring-assistant.git
 cd rag-based-wisp-monitoring-assistant
 pip install -r requirements.txt
 ```
@@ -224,7 +224,7 @@ wisp-monitoring-assistant/
 
 Built by **Thura** — a network engineer moving into AI development. The MikroTik log formats, event types and playbook procedures come from hands-on WISP work.
 
-[GitHub](https://github.com/inkychalk)
+[GitHub](https://github.com/thuyamaungg)
 
 ## License
 
