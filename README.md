@@ -30,9 +30,9 @@ Three design choices shape it:
 
 **Citations are verified after generation.** Every `[source]` reference in the answer is checked against the evidence that was actually retrieved. A citation pointing at something that wasn't in the prompt is flagged. So is the reverse: a playbook that was supplied but whose steps the model described without naming it.
 
-![Ask view](rag-based-wisp-monitoring-assistant/docs/screenshots/wisp_monitor_ask.png)
+![Ask view](docs/screenshots/wisp_monitor_ask.png)
 
-![Dashboard view](rag-based-wisp-monitoring-assistant/docs/screenshots/wisp_monitor_dash.png)
+![Dashboard view](docs/screenshots/wisp_monitor_dash.png)
 
 > **Scope: MikroTik (RouterOS), single use case.**
 > The log parser, event classification, playbooks and sample data all assume MikroTik RouterOS log formats (PPPoE, `/ppp`, `/ip firewall`, wireless interface messages) in a small WISP with a core router, towers and backhauls. Using it elsewhere means writing a new parser in `wisp_log_tools.py`, adding new playbooks and notes, and building new tests and answer keys for that environment before the results can be trusted.
