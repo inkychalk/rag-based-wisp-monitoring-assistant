@@ -1,0 +1,356 @@
+Sep 14 00:24:45 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: disconnected
+Sep 14 00:25:30 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: authenticated
+Sep 14 00:25:31 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: connected
+Sep 14 00:37:31 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: terminating... - peer is not responding
+Sep 14 00:37:32 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: disconnected
+Sep 14 00:38:47 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: authenticated
+Sep 14 00:38:49 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: connected
+Sep 14 00:42:53 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: disconnected
+Sep 14 00:43:50 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: authenticated
+Sep 14 00:43:51 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: connected
+Sep 14 00:46:34 CORE-RTR pppoe,ppp,info <pppoe-cust-C014>: terminating... - peer is not responding
+Sep 14 00:46:35 CORE-RTR pppoe,ppp,info <pppoe-cust-C014>: disconnected
+Sep 14 00:47:08 CORE-RTR pppoe,ppp,info <pppoe-cust-C014>: authenticated
+Sep 14 00:47:10 CORE-RTR pppoe,ppp,info <pppoe-cust-C014>: connected
+Sep 14 01:07:54 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: disconnected
+Sep 14 01:08:17 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: authenticated
+Sep 14 01:08:18 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: connected
+Sep 14 01:59:17 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: terminating... - peer is not responding
+Sep 14 01:59:18 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: disconnected
+Sep 14 02:00:46 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: authenticated
+Sep 14 02:00:48 CORE-RTR pppoe,ppp,info <pppoe-cust-A004>: connected
+Sep 14 02:01:04 TB-BH script,warning bh-signal-check: signal strength -81 dBm below -80 threshold
+Sep 14 02:04:37 TB-BH script,warning bh-signal-check: signal strength -84 dBm below -80 threshold
+Sep 14 02:07:19 TB-BH script,warning bh-signal-check: signal strength -87 dBm below -80 threshold
+Sep 14 02:10:02 TB-BH wireless,info 02:00:0A:F0:0B:01@wlan1: disconnected, extensive data loss
+Sep 14 02:10:07 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: terminating... - peer is not responding
+Sep 14 02:10:08 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: disconnected
+Sep 14 02:10:14 CORE-RTR pppoe,ppp,info <pppoe-cust-B012>: terminating... - peer is not responding
+Sep 14 02:10:17 CORE-RTR pppoe,ppp,info <pppoe-cust-B012>: disconnected
+Sep 14 02:10:27 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: terminating... - peer is not responding
+Sep 14 02:10:29 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: disconnected
+Sep 14 02:10:31 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: terminating... - peer is not responding
+Sep 14 02:10:32 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: disconnected
+Sep 14 02:10:43 CORE-RTR pppoe,ppp,info <pppoe-cust-B007>: terminating... - peer is not responding
+Sep 14 02:10:46 CORE-RTR pppoe,ppp,info <pppoe-cust-B007>: disconnected
+Sep 14 02:10:51 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: terminating... - peer is not responding
+Sep 14 02:10:52 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: disconnected
+Sep 14 02:10:53 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: terminating... - peer is not responding
+Sep 14 02:10:55 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: disconnected
+Sep 14 02:10:59 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: terminating... - peer is not responding
+Sep 14 02:11:00 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: disconnected
+Sep 14 02:11:06 CORE-RTR pppoe,ppp,info <pppoe-cust-B005>: terminating... - peer is not responding
+Sep 14 02:11:08 CORE-RTR pppoe,ppp,info <pppoe-cust-B005>: disconnected
+Sep 14 02:11:14 CORE-RTR pppoe,ppp,info <pppoe-cust-B015>: terminating... - peer is not responding
+Sep 14 02:11:16 CORE-RTR pppoe,ppp,info <pppoe-cust-B009>: terminating... - peer is not responding
+Sep 14 02:11:17 CORE-RTR pppoe,ppp,info <pppoe-cust-B015>: disconnected
+Sep 14 02:11:17 CORE-RTR pppoe,ppp,info <pppoe-cust-B009>: disconnected
+Sep 14 02:11:20 CORE-RTR pppoe,ppp,info <pppoe-cust-B013>: terminating... - peer is not responding
+Sep 14 02:11:22 CORE-RTR pppoe,ppp,info <pppoe-cust-B013>: disconnected
+Sep 14 02:11:23 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: terminating... - peer is not responding
+Sep 14 02:11:26 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: disconnected
+Sep 14 02:11:26 CORE-RTR pppoe,ppp,info <pppoe-cust-B004>: terminating... - peer is not responding
+Sep 14 02:11:27 CORE-RTR pppoe,ppp,info <pppoe-cust-B006>: terminating... - peer is not responding
+Sep 14 02:11:28 CORE-RTR pppoe,ppp,info <pppoe-cust-B004>: disconnected
+Sep 14 02:11:30 CORE-RTR pppoe,ppp,info <pppoe-cust-B006>: disconnected
+Sep 14 02:18:42 CORE-RTR pppoe,ppp,info <pppoe-cust-C002>: disconnected
+Sep 14 02:19:41 CORE-RTR pppoe,ppp,info <pppoe-cust-C002>: authenticated
+Sep 14 02:19:43 CORE-RTR pppoe,ppp,info <pppoe-cust-C002>: connected
+Sep 14 03:14:07 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: disconnected
+Sep 14 03:15:04 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: authenticated
+Sep 14 03:15:05 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: connected
+Sep 14 04:29:47 CORE-RTR system,info,account user admin logged in from 10.255.0.10 via winbox
+Sep 14 04:33:12 CORE-RTR system,info,account user admin logged out from 10.255.0.10 via winbox
+Sep 14 04:35:09 TB-BH wireless,info 02:00:0A:F0:0B:01@wlan1: connected
+Sep 14 04:35:40 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: authenticated
+Sep 14 04:35:41 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: connected
+Sep 14 04:35:49 CORE-RTR pppoe,ppp,info <pppoe-cust-B005>: authenticated
+Sep 14 04:35:51 CORE-RTR pppoe,ppp,info <pppoe-cust-B005>: connected
+Sep 14 04:35:55 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: authenticated
+Sep 14 04:35:56 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: connected
+Sep 14 04:36:30 CORE-RTR pppoe,ppp,info <pppoe-cust-B015>: authenticated
+Sep 14 04:36:31 CORE-RTR pppoe,ppp,info <pppoe-cust-B015>: connected
+Sep 14 04:36:37 CORE-RTR pppoe,ppp,info <pppoe-cust-B004>: authenticated
+Sep 14 04:36:39 CORE-RTR pppoe,ppp,info <pppoe-cust-B004>: connected
+Sep 14 04:36:50 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: authenticated
+Sep 14 04:36:51 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: connected
+Sep 14 04:36:53 CORE-RTR pppoe,ppp,info <pppoe-cust-B006>: authenticated
+Sep 14 04:36:55 CORE-RTR pppoe,ppp,info <pppoe-cust-B006>: connected
+Sep 14 04:37:19 CORE-RTR pppoe,ppp,info <pppoe-cust-B013>: authenticated
+Sep 14 04:37:21 CORE-RTR pppoe,ppp,info <pppoe-cust-B013>: connected
+Sep 14 04:37:27 CORE-RTR pppoe,ppp,info <pppoe-cust-B009>: authenticated
+Sep 14 04:37:28 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: authenticated
+Sep 14 04:37:29 CORE-RTR pppoe,ppp,info <pppoe-cust-B009>: connected
+Sep 14 04:37:30 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: connected
+Sep 14 04:37:39 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: authenticated
+Sep 14 04:37:41 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: connected
+Sep 14 04:38:53 CORE-RTR pppoe,ppp,info <pppoe-cust-B007>: authenticated
+Sep 14 04:38:55 CORE-RTR pppoe,ppp,info <pppoe-cust-B007>: connected
+Sep 14 04:39:03 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: authenticated
+Sep 14 04:39:05 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: connected
+Sep 14 04:39:17 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: authenticated
+Sep 14 04:39:19 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: connected
+Sep 14 04:39:24 CORE-RTR pppoe,ppp,info <pppoe-cust-B012>: authenticated
+Sep 14 04:39:26 CORE-RTR pppoe,ppp,info <pppoe-cust-B012>: connected
+Sep 14 05:47:14 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.9:64707->198.51.100.2:23, len 60
+Sep 14 05:47:15 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.9:31054->198.51.100.2:2323, len 60
+Sep 14 05:47:16 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.9:30751->198.51.100.2:8080, len 60
+Sep 14 05:53:07 CORE-RTR pppoe,ppp,info <pppoe-cust-A015>: terminating... - peer is not responding
+Sep 14 05:53:08 CORE-RTR pppoe,ppp,info <pppoe-cust-A015>: disconnected
+Sep 14 05:54:30 CORE-RTR pppoe,ppp,info <pppoe-cust-A015>: authenticated
+Sep 14 05:54:31 CORE-RTR pppoe,ppp,info <pppoe-cust-A015>: connected
+Sep 14 06:19:45 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: disconnected
+Sep 14 06:21:10 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: authenticated
+Sep 14 06:21:11 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: connected
+Sep 14 06:31:10 CORE-RTR script,warning high-cpu: CPU 94% for 60s
+Sep 14 06:58:12 CORE-RTR dhcp,info dhcp-mgmt assigned 10.255.0.23 to 02:00:0A:FF:00:23
+Sep 14 07:01:03 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: disconnected
+Sep 14 07:01:46 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: authenticated
+Sep 14 07:01:48 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: connected
+Sep 14 07:19:10 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: terminating... - peer is not responding
+Sep 14 07:19:11 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: disconnected
+Sep 14 07:19:45 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: authenticated
+Sep 14 07:19:47 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: connected
+Sep 14 07:55:04 TA-AP1 wireless,info 02:00:0A:A0:01:01@wlan1: disconnected, extensive data loss
+Sep 14 07:55:11 TA-AP1 wireless,info 02:00:0A:A0:01:01@wlan1: connected
+Sep 14 07:55:54 CORE-RTR pppoe,ppp,info <pppoe-cust-A014>: disconnected
+Sep 14 07:57:06 CORE-RTR pppoe,ppp,info <pppoe-cust-A014>: authenticated
+Sep 14 07:57:08 CORE-RTR pppoe,ppp,info <pppoe-cust-A014>: connected
+Sep 14 07:58:02 CORE-RTR pppoe,ppp,info <pppoe-cust-A015>: disconnected
+Sep 14 07:59:02 CORE-RTR pppoe,ppp,info <pppoe-cust-A015>: authenticated
+Sep 14 07:59:03 CORE-RTR pppoe,ppp,info <pppoe-cust-A015>: connected
+Sep 14 08:03:41 CORE-RTR system,info,account user admin logged in from 10.255.0.10 via winbox
+Sep 14 08:13:41 CORE-RTR system,info,account user admin logged out from 10.255.0.10 via winbox
+Sep 14 08:38:01 CORE-RTR pppoe,ppp,info <pppoe-cust-B012>: disconnected
+Sep 14 08:38:48 CORE-RTR pppoe,ppp,info <pppoe-cust-B012>: authenticated
+Sep 14 08:38:50 CORE-RTR pppoe,ppp,info <pppoe-cust-B012>: connected
+Sep 14 08:47:30 CORE-RTR pppoe,ppp,info <pppoe-cust-C006>: disconnected
+Sep 14 08:48:31 CORE-RTR pppoe,ppp,info <pppoe-cust-C006>: authenticated
+Sep 14 08:48:33 CORE-RTR pppoe,ppp,info <pppoe-cust-C006>: connected
+Sep 14 09:00:39 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: disconnected
+Sep 14 09:02:00 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: authenticated
+Sep 14 09:02:01 CORE-RTR pppoe,ppp,info <pppoe-cust-C012>: connected
+Sep 14 09:03:44 CORE-RTR dhcp,info dhcp-mgmt assigned 10.255.0.24 to 02:00:0A:FF:00:24
+Sep 14 09:26:03 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 198.51.100.77:47660->198.51.100.2:3389, len 60
+Sep 14 09:26:04 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 198.51.100.77:39239->198.51.100.2:445, len 60
+Sep 14 09:45:29 CORE-RTR pppoe,ppp,info <pppoe-cust-C004>: terminating... - peer is not responding
+Sep 14 09:45:30 CORE-RTR pppoe,ppp,info <pppoe-cust-C004>: disconnected
+Sep 14 09:46:49 CORE-RTR pppoe,ppp,info <pppoe-cust-C004>: authenticated
+Sep 14 09:46:50 CORE-RTR pppoe,ppp,info <pppoe-cust-C004>: connected
+Sep 14 09:58:34 CORE-RTR pppoe,ppp,info <pppoe-cust-B007>: disconnected
+Sep 14 09:59:52 CORE-RTR pppoe,ppp,info <pppoe-cust-B007>: authenticated
+Sep 14 09:59:53 CORE-RTR pppoe,ppp,info <pppoe-cust-B007>: connected
+Sep 14 10:11:56 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: disconnected
+Sep 14 10:12:47 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: authenticated
+Sep 14 10:12:49 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: connected
+Sep 14 10:23:05 TC-AP1 wireless,info 02:00:0A:C0:09:01@wlan1: disconnected, signal strength -84
+Sep 14 10:23:18 TC-AP1 wireless,info 02:00:0A:C0:09:01@wlan1: connected
+Sep 14 10:23:48 TB-AP1 wireless,info 02:00:0A:B0:10:01@wlan1: disconnected, extensive data loss
+Sep 14 10:23:52 TB-AP1 wireless,info 02:00:0A:B0:10:01@wlan1: connected
+Sep 14 10:24:36 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: disconnected
+Sep 14 10:25:26 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: authenticated
+Sep 14 10:25:27 CORE-RTR pppoe,ppp,info <pppoe-cust-B014>: connected
+Sep 14 10:27:15 CORE-RTR system,info,account user admin logged in from 10.255.0.10 via winbox
+Sep 14 10:27:25 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: terminating... - peer is not responding
+Sep 14 10:27:26 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: disconnected
+Sep 14 10:28:38 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: authenticated
+Sep 14 10:28:39 CORE-RTR pppoe,ppp,info <pppoe-cust-B008>: connected
+Sep 14 10:42:15 CORE-RTR system,info,account user admin logged out from 10.255.0.10 via winbox
+Sep 14 10:45:20 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: terminating... - peer is not responding
+Sep 14 10:45:21 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: disconnected
+Sep 14 10:46:45 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: authenticated
+Sep 14 10:46:46 CORE-RTR pppoe,ppp,info <pppoe-cust-B001>: connected
+Sep 14 11:11:33 TC-AP1 wireless,info 02:00:0A:C0:15:01@wlan1: disconnected, extensive data loss
+Sep 14 11:11:37 TC-AP1 wireless,info 02:00:0A:C0:15:01@wlan1: connected
+Sep 14 11:38:12 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:59791->198.51.100.2:22, len 60
+Sep 14 11:38:16 CORE-RTR system,error,critical login failure for user admin from 203.0.113.45 via ssh
+Sep 14 11:39:31 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:56210->198.51.100.2:22, len 60
+Sep 14 11:39:34 CORE-RTR system,error,critical login failure for user admin from 203.0.113.45 via ssh
+Sep 14 11:40:51 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:42561->198.51.100.2:22, len 60
+Sep 14 11:40:54 CORE-RTR system,error,critical login failure for user root from 203.0.113.45 via ssh
+Sep 14 11:41:39 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:54090->198.51.100.2:22, len 60
+Sep 14 11:41:42 CORE-RTR system,error,critical login failure for user admin from 203.0.113.45 via ssh
+Sep 14 11:42:54 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:54327->198.51.100.2:22, len 60
+Sep 14 11:42:57 CORE-RTR system,error,critical login failure for user admin from 203.0.113.45 via ssh
+Sep 14 11:44:03 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:46193->198.51.100.2:22, len 60
+Sep 14 11:44:06 CORE-RTR system,error,critical login failure for user user from 203.0.113.45 via ssh
+Sep 14 11:45:03 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:41725->198.51.100.2:22, len 60
+Sep 14 11:45:06 CORE-RTR system,error,critical login failure for user admin from 203.0.113.45 via ssh
+Sep 14 11:46:11 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:52422->198.51.100.2:22, len 60
+Sep 14 11:46:15 CORE-RTR system,error,critical login failure for user admin from 203.0.113.45 via ssh
+Sep 14 11:47:08 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:44855->198.51.100.2:22, len 60
+Sep 14 11:47:10 CORE-RTR system,error,critical login failure for user root from 203.0.113.45 via ssh
+Sep 14 11:47:52 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.45:51639->198.51.100.2:22, len 60
+Sep 14 11:47:54 CORE-RTR system,error,critical login failure for user admin from 203.0.113.45 via ssh
+Sep 14 12:08:25 CORE-RTR pppoe,ppp,info <pppoe-cust-C013>: disconnected
+Sep 14 12:09:08 CORE-RTR pppoe,ppp,info <pppoe-cust-B006>: disconnected
+Sep 14 12:09:53 CORE-RTR pppoe,ppp,info <pppoe-cust-C013>: authenticated
+Sep 14 12:09:54 CORE-RTR pppoe,ppp,info <pppoe-cust-C013>: connected
+Sep 14 12:10:07 CORE-RTR pppoe,ppp,info <pppoe-cust-B006>: authenticated
+Sep 14 12:10:09 CORE-RTR pppoe,ppp,info <pppoe-cust-B006>: connected
+Sep 14 12:38:54 CORE-RTR pppoe,ppp,info <pppoe-cust-A006>: disconnected
+Sep 14 12:40:13 CORE-RTR pppoe,ppp,info <pppoe-cust-A006>: authenticated
+Sep 14 12:40:15 CORE-RTR pppoe,ppp,info <pppoe-cust-A006>: connected
+Sep 14 12:40:52 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: terminating... - peer is not responding
+Sep 14 12:40:53 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: disconnected
+Sep 14 12:42:05 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: authenticated
+Sep 14 12:42:06 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: connected
+Sep 14 13:02:51 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 192.0.2.33:38235->198.51.100.2:8291, len 60
+Sep 14 13:02:52 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 192.0.2.33:61342->198.51.100.2:80, len 60
+Sep 14 13:02:55 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: terminating... - peer is not responding
+Sep 14 13:02:56 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: disconnected
+Sep 14 13:03:45 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: authenticated
+Sep 14 13:03:47 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: connected
+Sep 14 13:39:05 CORE-RTR dhcp,info dhcp-mgmt assigned 10.255.0.23 to 02:00:0A:FF:00:23
+Sep 14 13:39:29 CORE-RTR pppoe,ppp,info <pppoe-cust-C005>: disconnected
+Sep 14 13:40:36 CORE-RTR pppoe,ppp,info <pppoe-cust-C005>: authenticated
+Sep 14 13:40:37 CORE-RTR pppoe,ppp,info <pppoe-cust-C005>: connected
+Sep 14 13:44:08 CORE-RTR system,info,account user admin logged in from 10.255.0.10 via ssh
+Sep 14 13:51:08 CORE-RTR system,info,account user admin logged out from 10.255.0.10 via ssh
+Sep 14 14:22:56 TA-AP1 wireless,info 02:00:0A:A0:08:01@wlan1: disconnected, extensive data loss
+Sep 14 14:23:08 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: terminating... - peer is not responding
+Sep 14 14:23:09 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: disconnected
+Sep 14 14:23:24 TA-AP1 wireless,info 02:00:0A:A0:11:01@wlan1: disconnected, extensive data loss
+Sep 14 14:23:34 TA-AP1 wireless,info 02:00:0A:A0:08:01@wlan1: connected
+Sep 14 14:23:38 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: terminating... - peer is not responding
+Sep 14 14:23:39 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: disconnected
+Sep 14 14:23:41 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: authenticated
+Sep 14 14:23:42 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: connected
+Sep 14 14:24:09 TA-AP1 wireless,info 02:00:0A:A0:11:01@wlan1: connected
+Sep 14 14:24:16 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: authenticated
+Sep 14 14:24:17 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: connected
+Sep 14 14:24:55 TA-AP1 wireless,info 02:00:0A:A0:02:01@wlan1: disconnected, extensive data loss
+Sep 14 14:25:06 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: terminating... - peer is not responding
+Sep 14 14:25:07 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: disconnected
+Sep 14 14:26:04 TA-AP1 wireless,info 02:00:0A:A0:02:01@wlan1: connected
+Sep 14 14:26:09 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: authenticated
+Sep 14 14:26:10 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: connected
+Sep 14 14:26:57 TA-AP1 wireless,info 02:00:0A:A0:13:01@wlan1: disconnected, extensive data loss
+Sep 14 14:27:07 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: terminating... - peer is not responding
+Sep 14 14:27:08 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: disconnected
+Sep 14 14:27:33 TA-AP1 wireless,info 02:00:0A:A0:01:01@wlan1: disconnected, extensive data loss
+Sep 14 14:27:40 TA-AP1 wireless,info 02:00:0A:A0:01:01@wlan1: connected
+Sep 14 14:27:57 TA-AP1 wireless,info 02:00:0A:A0:13:01@wlan1: connected
+Sep 14 14:28:04 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: authenticated
+Sep 14 14:28:05 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: connected
+Sep 14 14:33:55 TA-AP1 wireless,info 02:00:0A:A0:04:01@wlan1: disconnected, extensive data loss
+Sep 14 14:34:04 TA-AP1 wireless,info 02:00:0A:A0:04:01@wlan1: connected
+Sep 14 14:35:23 TA-AP1 wireless,info 02:00:0A:A0:05:01@wlan1: disconnected, extensive data loss
+Sep 14 14:35:35 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: terminating... - peer is not responding
+Sep 14 14:35:36 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: disconnected
+Sep 14 14:35:38 CORE-RTR pppoe,ppp,info <pppoe-cust-B005>: disconnected
+Sep 14 14:36:26 TA-AP1 wireless,info 02:00:0A:A0:05:01@wlan1: connected
+Sep 14 14:36:33 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: authenticated
+Sep 14 14:36:33 CORE-RTR pppoe,ppp,info <pppoe-cust-B005>: authenticated
+Sep 14 14:36:34 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: connected
+Sep 14 14:36:35 CORE-RTR pppoe,ppp,info <pppoe-cust-B005>: connected
+Sep 14 14:40:46 TA-AP1 wireless,info 02:00:0A:A0:13:01@wlan1: disconnected, signal strength -85
+Sep 14 14:40:57 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: terminating... - peer is not responding
+Sep 14 14:40:58 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: disconnected
+Sep 14 14:41:40 TA-AP1 wireless,info 02:00:0A:A0:13:01@wlan1: connected
+Sep 14 14:41:46 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: authenticated
+Sep 14 14:41:47 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: connected
+Sep 14 14:43:55 TA-AP1 wireless,info 02:00:0A:A0:02:01@wlan1: disconnected, signal strength -89
+Sep 14 14:44:03 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: terminating... - peer is not responding
+Sep 14 14:44:04 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: disconnected
+Sep 14 14:44:24 TA-AP1 wireless,info 02:00:0A:A0:05:01@wlan1: disconnected, extensive data loss
+Sep 14 14:44:33 TA-AP1 wireless,info 02:00:0A:A0:02:01@wlan1: connected
+Sep 14 14:44:36 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: authenticated
+Sep 14 14:44:36 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: terminating... - peer is not responding
+Sep 14 14:44:37 CORE-RTR pppoe,ppp,info <pppoe-cust-A002>: connected
+Sep 14 14:44:37 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: disconnected
+Sep 14 14:45:27 TA-AP1 wireless,info 02:00:0A:A0:05:01@wlan1: connected
+Sep 14 14:45:32 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: authenticated
+Sep 14 14:45:33 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: connected
+Sep 14 14:48:59 TA-AP1 wireless,info 02:00:0A:A0:07:01@wlan1: disconnected, extensive data loss
+Sep 14 14:49:06 TA-AP1 wireless,info 02:00:0A:A0:07:01@wlan1: connected
+Sep 14 14:49:46 TA-AP1 wireless,info 02:00:0A:A0:08:01@wlan1: disconnected, signal strength -91
+Sep 14 14:49:54 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: terminating... - peer is not responding
+Sep 14 14:49:55 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: disconnected
+Sep 14 14:50:43 TA-AP1 wireless,info 02:00:0A:A0:08:01@wlan1: connected
+Sep 14 14:50:47 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: authenticated
+Sep 14 14:50:48 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: connected
+Sep 14 14:54:13 TA-AP1 wireless,info 02:00:0A:A0:14:01@wlan1: disconnected, signal strength -86
+Sep 14 14:54:19 TA-AP1 wireless,info 02:00:0A:A0:14:01@wlan1: connected
+Sep 14 14:58:09 TA-AP1 wireless,info 02:00:0A:A0:11:01@wlan1: disconnected, signal strength -89
+Sep 14 14:58:19 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: terminating... - peer is not responding
+Sep 14 14:58:20 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: disconnected
+Sep 14 14:59:18 TA-AP1 wireless,info 02:00:0A:A0:11:01@wlan1: connected
+Sep 14 14:59:23 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: authenticated
+Sep 14 14:59:24 CORE-RTR pppoe,ppp,info <pppoe-cust-A011>: connected
+Sep 14 15:01:14 TA-AP1 system,info,account user admin logged in from 10.255.0.10 via winbox
+Sep 14 15:02:12 TA-AP1 wireless,info 02:00:0A:A0:13:01@wlan1: disconnected, extensive data loss
+Sep 14 15:02:23 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: terminating... - peer is not responding
+Sep 14 15:02:24 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: disconnected
+Sep 14 15:02:31 TA-AP1 system,info wlan1 changed by admin (frequency 5745 -> 5805)
+Sep 14 15:03:21 TA-AP1 wireless,info 02:00:0A:A0:13:01@wlan1: connected
+Sep 14 15:03:27 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: authenticated
+Sep 14 15:03:28 CORE-RTR pppoe,ppp,info <pppoe-cust-A013>: connected
+Sep 14 15:04:02 TA-AP1 system,info,account user admin logged out from 10.255.0.10 via winbox
+Sep 14 15:20:51 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: terminating... - peer is not responding
+Sep 14 15:20:52 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: disconnected
+Sep 14 15:22:08 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: authenticated
+Sep 14 15:22:09 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: connected
+Sep 14 15:24:21 CORE-RTR pppoe,ppp,info <pppoe-cust-A012>: disconnected
+Sep 14 15:25:09 CORE-RTR pppoe,ppp,info <pppoe-cust-A012>: authenticated
+Sep 14 15:25:11 CORE-RTR pppoe,ppp,info <pppoe-cust-A012>: connected
+Sep 14 15:54:48 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: terminating... - peer is not responding
+Sep 14 15:54:49 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: disconnected
+Sep 14 15:55:41 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: authenticated
+Sep 14 15:55:42 CORE-RTR pppoe,ppp,info <pppoe-cust-A007>: connected
+Sep 14 16:00:32 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: terminating... - peer is not responding
+Sep 14 16:00:33 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: disconnected
+Sep 14 16:01:50 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: authenticated
+Sep 14 16:01:52 CORE-RTR pppoe,ppp,info <pppoe-cust-A008>: connected
+Sep 14 16:09:13 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: disconnected
+Sep 14 16:10:20 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: authenticated
+Sep 14 16:10:21 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: connected
+Sep 14 16:45:34 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: terminating... - peer is not responding
+Sep 14 16:45:35 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: disconnected
+Sep 14 16:46:05 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: authenticated
+Sep 14 16:46:07 CORE-RTR pppoe,ppp,info <pppoe-cust-C007>: connected
+Sep 14 16:52:30 CORE-RTR system,info,account user admin logged in from 10.255.0.10 via winbox
+Sep 14 17:01:27 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: terminating... - peer is not responding
+Sep 14 17:01:28 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: disconnected
+Sep 14 17:02:41 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: authenticated
+Sep 14 17:02:43 CORE-RTR pppoe,ppp,info <pppoe-cust-B003>: connected
+Sep 14 17:12:30 CORE-RTR system,info,account user admin logged out from 10.255.0.10 via winbox
+Sep 14 17:27:06 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: disconnected
+Sep 14 17:28:27 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: authenticated
+Sep 14 17:28:29 CORE-RTR pppoe,ppp,info <pppoe-cust-A005>: connected
+Sep 14 17:36:27 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.118:50250->198.51.100.2:23, len 60
+Sep 14 17:36:28 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.118:31358->198.51.100.2:21, len 60
+Sep 14 17:36:29 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto TCP (SYN), 203.0.113.118:63374->198.51.100.2:25, len 60
+Sep 14 17:44:26 TA-AP1 wireless,info 02:00:0A:A0:04:01@wlan1: disconnected, extensive data loss
+Sep 14 17:44:38 TA-AP1 wireless,info 02:00:0A:A0:04:01@wlan1: connected
+Sep 14 18:10:40 CORE-RTR pppoe,ppp,info <pppoe-cust-C002>: disconnected
+Sep 14 18:12:02 CORE-RTR pppoe,ppp,info <pppoe-cust-C002>: authenticated
+Sep 14 18:12:04 CORE-RTR pppoe,ppp,info <pppoe-cust-C002>: connected
+Sep 14 19:07:22 CORE-RTR script,warning high-cpu: CPU 96% for 60s
+Sep 14 20:51:30 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: terminating... - peer is not responding
+Sep 14 20:51:31 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: disconnected
+Sep 14 20:52:28 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: authenticated
+Sep 14 20:52:30 CORE-RTR pppoe,ppp,info <pppoe-cust-B010>: connected
+Sep 14 21:01:13 CORE-RTR pppoe,ppp,info <pppoe-cust-A001>: disconnected
+Sep 14 21:02:22 CORE-RTR pppoe,ppp,info <pppoe-cust-A001>: authenticated
+Sep 14 21:02:24 CORE-RTR pppoe,ppp,info <pppoe-cust-A001>: connected
+Sep 14 21:05:41 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: disconnected
+Sep 14 21:06:32 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: authenticated
+Sep 14 21:06:33 CORE-RTR pppoe,ppp,info <pppoe-cust-B002>: connected
+Sep 14 21:11:50 CORE-RTR pppoe,ppp,info <pppoe-cust-C005>: terminating... - peer is not responding
+Sep 14 21:11:51 CORE-RTR pppoe,ppp,info <pppoe-cust-C005>: disconnected
+Sep 14 21:12:44 CORE-RTR pppoe,ppp,info <pppoe-cust-C005>: authenticated
+Sep 14 21:12:45 CORE-RTR pppoe,ppp,info <pppoe-cust-C005>: connected
+Sep 14 21:33:01 TB-AP1 wireless,info 02:00:0A:B0:03:01@wlan1: disconnected, extensive data loss
+Sep 14 21:33:12 TB-AP1 wireless,info 02:00:0A:B0:03:01@wlan1: connected
+Sep 14 21:48:40 CORE-RTR firewall,info input: in:ether1 out:(unknown 0), proto UDP, 198.51.100.140:5071->198.51.100.2:5060, len 428
+Sep 14 21:56:57 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: terminating... - peer is not responding
+Sep 14 21:56:58 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: disconnected
+Sep 14 21:58:17 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: authenticated
+Sep 14 21:58:19 CORE-RTR pppoe,ppp,info <pppoe-cust-B011>: connected
+Sep 14 22:15:03 CORE-RTR system,info,account user admin logged in from 10.255.0.10 via winbox
+Sep 14 22:20:03 CORE-RTR system,info,account user admin logged out from 10.255.0.10 via winbox
+Sep 14 22:47:17 CORE-RTR pppoe,ppp,info <pppoe-cust-C006>: terminating... - peer is not responding
+Sep 14 22:47:18 CORE-RTR pppoe,ppp,info <pppoe-cust-C006>: disconnected
+Sep 14 22:48:46 CORE-RTR pppoe,ppp,info <pppoe-cust-C006>: authenticated
+Sep 14 22:48:47 CORE-RTR pppoe,ppp,info <pppoe-cust-C006>: connected

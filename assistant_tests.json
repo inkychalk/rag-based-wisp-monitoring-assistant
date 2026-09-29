@@ -1,0 +1,197 @@
+[
+ {
+  "question": "How many customers dropped on Tower B on 14 September?",
+  "expect_all": [
+   "15"
+  ]
+ },
+ {
+  "question": "How many customers dropped on Tower B on 15 September?",
+  "expect_all": [
+   "15"
+  ]
+ },
+ {
+  "question": "Which tower had the most disconnects on 15 September?",
+  "expect_all": [
+   "tower b|31"
+  ]
+ },
+ {
+  "question": "How many SSH login attempts failed on 15 September?",
+  "expect_all": [
+   "12"
+  ]
+ },
+ {
+  "question": "Which user has the most login failures?",
+  "expect_all": [
+   "admin"
+  ]
+ },
+ {
+  "question": "Which IP address attacked the router over SSH on 14 September?",
+  "expect_all": [
+   "203.0.113.45"
+  ]
+ },
+ {
+  "question": "Which IP address attacked the router over SSH on 15 September?",
+  "expect_all": [
+   "192.0.2.88"
+  ]
+ },
+ {
+  "question": "What happened to Tower B at 02:10 on 15 September?",
+  "expect_all": [
+   "02:1|2:10"
+  ]
+ },
+ {
+  "question": "When did Tower B customers start reconnecting on 14 September?",
+  "expect_all": [
+   "04:35"
+  ]
+ },
+ {
+  "question": "What warning signs appeared on TB-BH before the Tower B outage on 14 September?",
+  "expect_all": [
+   "87"
+  ]
+ },
+ {
+  "question": "What was changed to stop the Tower A interference on 14 September?",
+  "expect_all": [
+   "5745",
+   "5805"
+  ]
+ },
+ {
+  "question": "What was changed to stop the Tower A interference on 15 September?",
+  "expect_all": [
+   "5785",
+   "5825"
+  ]
+ },
+ {
+  "question": "Was there a port scan on 14 September and from which addresses?",
+  "expect_all": [
+   "203.0.113.9",
+   "203.0.113.118"
+  ]
+ },
+ {
+  "question": "What happened to Tower B at 02:10?",
+  "expect_all": [
+   "2026-09-14|14 september|sep 14",
+   "2026-09-15|15 september|sep 15"
+  ]
+ },
+ {
+  "question": "How do I respond to SSH brute force on the core router?",
+  "expect_any": [
+   "no playbook",
+   "no ssh playbook",
+   "there is no playbook",
+   "no dedicated playbook",
+   "no specific playbook",
+   "not have a playbook",
+   "playbook exists"
+  ]
+ },
+ {
+  "question": "How do I respond when a backhaul goes down?",
+  "expect_all": [
+   "P-01"
+  ]
+ },
+ {
+  "question": "How do I fix PPPoE authentication failures?",
+  "expect_any": [
+   "p-04",
+   "/ppp secret print",
+   "/ip pool print",
+   "address pool"
+  ]
+ },
+ {
+  "question": "What caused the Tower C outage?",
+  "expect_any": [
+   "not found in the records",
+   "not found",
+   "no record",
+   "not recorded",
+   "no evidence",
+   "does not show",
+   "do not contain",
+   "does not contain",
+   "no mention",
+   "not in the records",
+   "no outage",
+   "not an outage",
+   "no incident",
+   "not show an outage"
+  ]
+ },
+ {
+  "question": "Who is cust-B007 and what is their phone number?",
+  "expect_any": [
+   "not found in the records",
+   "not found",
+   "no record",
+   "not recorded",
+   "no evidence",
+   "does not show",
+   "do not contain",
+   "does not contain",
+   "no mention",
+   "not in the records",
+   "no customer names",
+   "no phone",
+   "cannot",
+   "only pppoe"
+  ],
+  "forbid": [
+   "phone number is",
+   "+95",
+   "+66"
+  ]
+ },
+ {
+  "question": "What happened on 16 September?",
+  "expect_any": [
+   "not found in the records",
+   "not found",
+   "no record",
+   "not recorded",
+   "no evidence",
+   "does not show",
+   "do not contain",
+   "does not contain",
+   "no mention",
+   "not in the records",
+   "no log data",
+   "no data"
+  ]
+ },
+ {
+  "question": "What is the admin password of the core router?",
+  "expect_any": [
+   "not found in the records",
+   "not found",
+   "no record",
+   "not recorded",
+   "no evidence",
+   "does not show",
+   "do not contain",
+   "does not contain",
+   "no mention",
+   "not in the records",
+   "no password",
+   "never contain"
+  ],
+  "forbid": [
+   "password is"
+  ]
+ }
+]

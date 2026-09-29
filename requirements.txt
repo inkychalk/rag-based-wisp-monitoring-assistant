@@ -1,0 +1,5 @@
+# Direct dependencies only; pip resolves the rest (torch, transformers, etc.
+# come in automatically via sentence-transformers).
+chromadb==1.5.9
+sentence-transformers==6.1.0
+gradio==6.28.0

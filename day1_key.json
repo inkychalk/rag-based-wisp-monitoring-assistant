@@ -1,0 +1,98 @@
+{
+  "log_line_count": 356,
+  "incidents": [
+    {
+      "id": "A",
+      "type": "backhaul_down",
+      "tower": "B",
+      "start": "2026-09-14T02:10:02",
+      "end": "2026-09-14T04:35:09",
+      "root_cause": "TB-BH wireless backhaul link to the core site degraded (signal -81 to -87 dBm warnings) and then dropped; TB-AP1 and TB-BH were silent until the link returned",
+      "affected_customers": [
+        "cust-B001", "cust-B002", "cust-B003", "cust-B004", "cust-B005",
+        "cust-B006", "cust-B007", "cust-B008", "cust-B009", "cust-B010",
+        "cust-B011", "cust-B012", "cust-B013", "cust-B014", "cust-B015"
+      ],
+      "first_evidence_timestamp": "2026-09-14T02:01:04",
+      "last_evidence_timestamp": "2026-09-14T04:39:26"
+    },
+    {
+      "id": "C",
+      "type": "interference",
+      "tower": "A",
+      "start": "2026-09-14T14:22:56",
+      "end": "2026-09-14T15:02:31",
+      "root_cause": "RF interference on TA-AP1 wlan1 at 5745 MHz (source not identified in the logs); cleared by an admin channel change to 5805 MHz",
+      "affected_customers": [
+        "cust-A001", "cust-A002", "cust-A004", "cust-A005", "cust-A007",
+        "cust-A008", "cust-A011", "cust-A013", "cust-A014"
+      ],
+      "pppoe_disconnects_in_incident": 11,
+      "first_evidence_timestamp": "2026-09-14T14:22:56",
+      "last_evidence_timestamp": "2026-09-14T15:03:28"
+    },
+    {
+      "id": "E",
+      "type": "ssh_brute_force",
+      "tower": "none (CORE-RTR, ether1)",
+      "start": "2026-09-14T11:38:12",
+      "end": "2026-09-14T11:47:54",
+      "root_cause": "Repeated SSH login attempts against CORE-RTR from 203.0.113.45; all 10 attempts failed",
+      "affected_customers": [],
+      "first_evidence_timestamp": "2026-09-14T11:38:12",
+      "last_evidence_timestamp": "2026-09-14T11:47:54"
+    }
+  ],
+  "routine_counts": {
+    "pppoe_disconnects_per_tower_whole_day": {
+      "A": 26,
+      "B": 30,
+      "C": 15,
+      "total": 71
+    },
+    "of_which_incident_related": {
+      "A": 11,
+      "B": 15,
+      "C": 0
+    },
+    "of_which_routine": {
+      "A": 15,
+      "B": 15,
+      "C": 15
+    }
+  },
+  "test_questions": [
+    {
+      "q": "What warnings appeared on TB-BH before the Tower B outage, and when?",
+      "a": "Three bh-signal-check script warnings: 02:01:04 (-81 dBm), 02:04:37 (-84 dBm), 02:07:19 (-87 dBm)."
+    },
+    {
+      "q": "When did TB-BH and TB-AP1 stop sending logs, and when did they resume?",
+      "a": "The last line from Tower B devices was TB-BH at 02:10:02 (disconnected, extensive data loss). Nothing came from TB-BH or TB-AP1 until TB-BH connected at 04:35:09."
+    },
+    {
+      "q": "When did the first Tower B PPPoE session drop in the overnight outage, and when did the last one reconnect?",
+      "a": "The first drop (terminating, peer not responding) was at 02:10:07. The last session reconnected at 04:39:26. All 15 Tower B customers were affected."
+    },
+    {
+      "q": "Which source IP attacked CORE-RTR over SSH, how many login failures were logged, and when?",
+      "a": "203.0.113.45. There were 10 failures from 11:38:16 to 11:47:54 (users: admin x7, root x2, user x1), each preceded by a firewall SYN line to port 22."
+    },
+    {
+      "q": "Which Tower A customers lost their PPPoE session during the afternoon interference, and what ended it?",
+      "a": "cust-A002, A005, A008, A011 and A013 (11 PPPoE disconnects between 14:23:09 and 15:02:24). An admin logged in to TA-AP1 at 15:01:14 and changed the wlan1 frequency from 5745 to 5805 at 15:02:31."
+    },
+    {
+      "q": "When did CORE-RTR log high-CPU warnings?",
+      "a": "At 06:31:10 (94%) and 19:07:22 (96%), each for 60s."
+    },
+    {
+      "q": "What external device or source caused the interference on TA-AP1?",
+      "a": "not in the logs"
+    },
+    {
+      "q": "What RouterOS firmware version is running on TB-BH?",
+      "a": "not in the logs"
+    }
+  ]
+}

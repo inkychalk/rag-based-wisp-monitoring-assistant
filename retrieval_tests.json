@@ -1,0 +1,116 @@
+[
+  {
+    "question": "What caused the Tower B outage on 14 September?",
+    "answerable": true,
+    "match": "all",
+    "evidence": [
+      "N-2026-0914-01"
+    ],
+    "filters": {
+      "tower": "B",
+      "date": "2026-09-14",
+      "type": "incident"
+    }
+  },
+  {
+    "question": "What happened to Tower B customers overnight on 14 September?",
+    "answerable": true,
+    "match": "all",
+    "evidence": [
+      "day1.log:B:20260914:008"
+    ],
+    "filters": {
+      "tower": "B",
+      "date": "2026-09-14",
+      "type": "log",
+      "time_from": "00:00",
+      "time_to": "06:00"
+    }
+  },
+  {
+    "question": "What happened to Tower B at 02:10 on 15 September?",
+    "answerable": true,
+    "match": "all",
+    "evidence": [
+      "day2.log:B:20260915:008"
+    ],
+    "filters": {
+      "tower": "B",
+      "date": "2026-09-15",
+      "time_from": "02:00",
+      "time_to": "03:00"
+    }
+  },
+  {
+    "question": "How do I respond to SSH brute force on the core router?",
+    "answerable": true,
+    "match": "any",
+    "evidence": [
+      "N-2026-0914-03",
+      "N-2026-0819-01"
+    ],
+    "filters": {}
+  },
+  {
+    "question": "Which IP address attacked the router over SSH on 14 September?",
+    "answerable": true,
+    "match": "all",
+    "evidence": [
+      "203.0.113.45"
+    ],
+    "filters": {
+      "date": "2026-09-14",
+      "type": "log"
+    }
+  },
+  {
+    "question": "Which IP address attacked the router over SSH on 15 September?",
+    "answerable": true,
+    "match": "all",
+    "evidence": [
+      "192.0.2.88"
+    ],
+    "filters": {
+      "date": "2026-09-15",
+      "type": "log"
+    }
+  },
+  {
+    "question": "What was changed to stop the Tower A interference on 14 September?",
+    "answerable": true,
+    "match": "all",
+    "evidence": [
+      "5745 -> 5805"
+    ],
+    "filters": {
+      "tower": "A",
+      "date": "2026-09-14"
+    }
+  },
+  {
+    "question": "What was changed to stop the Tower A interference on 15 September?",
+    "answerable": true,
+    "match": "all",
+    "evidence": [
+      "5785 -> 5825"
+    ],
+    "filters": {
+      "tower": "A",
+      "date": "2026-09-15"
+    }
+  },
+  {
+    "question": "What caused the Tower C outage?",
+    "answerable": false,
+    "match": "all",
+    "evidence": [],
+    "filters": {}
+  },
+  {
+    "question": "Which customer is cust-B007 and what is their phone number?",
+    "answerable": false,
+    "match": "all",
+    "evidence": [],
+    "filters": {}
+  }
+]

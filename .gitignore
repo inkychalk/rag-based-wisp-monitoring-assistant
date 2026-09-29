@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Local tooling
+.claude/
+
+# Generated — rebuild with the ingest command in the README
+chroma_db/
+events.db
+
+# Superseded working file
+compare_report_step2.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# If you later use real logs or notes, ignore them too:
+# day*.log
+# notes/
+# playbooks/

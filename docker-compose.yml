@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      # The LLM stays external. LLM_PROVIDER, model names and API keys still come
+      # from .env (bind-mounted below), except OLLAMA_BASE_URL below, which must
+      # differ between a host run (localhost) and this container (host.docker.internal),
+      # so it is set here rather than in .env.
+      - WISP_HOST=0.0.0.0
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+    volumes:
+      # Bind-mount the whole project: code changes need no rebuild, and the Chroma/
+      # SQLite stores, logs and .env persist on the host and are shared with local runs.
+      - .:/app
+    extra_hosts:
+      # Docker Desktop (Mac/Windows) already resolves host.docker.internal; this line
+      # makes the same hostname work on Linux, where it isn't automatic.
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+[
+  {"id": "N-2026-0914-01", "key_incident_id": "A", "date": "2026-09-14", "tower": "B", "incident_type": "backhaul_down", "root_cause_status": "confirmed"},
+  {"id": "N-2026-0914-02", "key_incident_id": "C", "date": "2026-09-14", "tower": "A", "incident_type": "interference", "root_cause_status": "confirmed"},
+  {"id": "N-2026-0914-03", "key_incident_id": "E", "date": "2026-09-14", "tower": "none", "incident_type": "ssh_brute_force", "root_cause_status": "confirmed"},
+  {"id": "N-2026-0630-01", "key_incident_id": "none", "date": "2026-06-30", "tower": "A", "incident_type": "power_failure", "root_cause_status": "not_confirmed"},
+  {"id": "N-2026-0722-01", "key_incident_id": "none", "date": "2026-07-22", "tower": "B", "incident_type": "backhaul_down", "root_cause_status": "confirmed"},
+  {"id": "N-2026-0803-01", "key_incident_id": "none", "date": "2026-08-03", "tower": "C", "incident_type": "interference", "root_cause_status": "confirmed"},
+  {"id": "N-2026-0819-01", "key_incident_id": "none", "date": "2026-08-19", "tower": "none", "incident_type": "ssh_brute_force", "root_cause_status": "confirmed"},
+  {"id": "N-2026-0902-01", "key_incident_id": "none", "date": "2026-09-02", "tower": "A", "incident_type": "pppoe_auth_failures", "root_cause_status": "confirmed"}
+]
