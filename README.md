@@ -39,7 +39,7 @@ Three design choices shape it:
 
 ## How it works
 
-```
+
 Question
     ↓
 Rule-based filter extraction  ──→  tower, date, time window
@@ -57,7 +57,7 @@ LLM generates answer with [citations]
 Citation check  ──→  fabricated reference?  uncited playbook?
     ↓
 Answer, with labels expanded to real source ids
-```
+``
 
 ## Design decisions
 
@@ -122,12 +122,10 @@ Knowing what it doesn't know is the property that makes the rest usable.
 
 ## Quick start
 
-<!-- CONFIRM: replace with the real repository URL -->
-```bash
 git clone https://github.com/inkychalk/rag-based-wisp-monitoring-assistant.git
 cd rag-based-wisp-monitoring-assistant
 pip install -r requirements.txt
-```
+
 
 **Build the index** (required — `chroma_db/` and `events.db` are generated, not committed):
 
@@ -136,25 +134,23 @@ python wisp_rag.py ingest \
   --log day2.log@2026-09-15 \
   --notes notes \
   --playbooks playbooks
-```
+
 
 **Configure a model.** The default is local Ollama, which keeps everything on your machine:
 
-```
 # .env
 LLM_PROVIDER=ollama
 OLLAMA_MODEL=gemma4:e4b
-```
 
-<!-- CONFIRM: check this model tag is correct -->
+
 Run `ollama pull gemma4:e4b` once and make sure Ollama is running. To use a hosted API instead, set `LLM_PROVIDER` and the matching `<PROVIDER>_MODEL` and `<PROVIDER>_API_KEY` — see [docs/OPERATIONS.md](docs/OPERATIONS.md).
 
 **Ask something:**
 
-```bash
+
 python wisp_assistant.py ask "How many customers dropped on Tower B on 14 September?"
 python wisp_assistant.py ui        # browser UI at http://localhost:7860
-```
+
 
 **Or with Docker:**
 
@@ -186,7 +182,7 @@ Full options in [docs/OPERATIONS.md](docs/OPERATIONS.md).
 
 ## Project structure
 
-```
+
 wisp-monitoring-assistant/
 ├── wisp_assistant.py       # Prompts, SQL facts, citation checks, LLM layer, UI, CLI
 ├── wisp_rag.py             # Chroma ingestion, hybrid retrieval, eval, events.db writer
@@ -201,7 +197,7 @@ wisp-monitoring-assistant/
 ├── compare_report.md       # Evaluation results
 ├── docker-compose.yml
 └── Dockerfile
-```
+
 
 ## Limitations
 
